@@ -1,0 +1,12 @@
+# Packages imported by the code in code/ and by the TLP modules it uses (Python 3.9 or newer).
+# The lower bounds follow from APIs the code calls; the other packages are not pinned.
+torch>=2.3
+torchvision
+numpy>=1.19
+scipy
+scikit-image>=0.16
+scikit-learn
+SimpleITK
+pillow
+einops
+matplotlib>=3.4
